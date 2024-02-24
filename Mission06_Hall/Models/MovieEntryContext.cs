@@ -9,6 +9,7 @@ namespace Mission06_Hall.Models
         }
 
         public DbSet<Entry> Movies { get; set; }
+        public DbSet<Category> Categories { get; set; }
 
     }
 }
